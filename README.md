@@ -26,7 +26,35 @@ Dưới đây là danh sách các lệnh Docker Compose cơ bản được sử 
 ---
 
 ## Phần 2: Docker Compose file (Cơ bản)
-*Đang cập nhật...*
+
+Danh sách 15 bài tập cơ bản đã hoàn thành:
+1.  **Bài 1**: Chạy Nginx (port 8080)
+2.  **Bài 2**: Chạy MySQL 8.0 (mydb, user, password)
+3.  **Bài 3**: Kết nối MySQL với PHPMyAdmin (port 8081)
+4.  **Bài 4**: Chạy ứng dụng Node.js Express
+5.  **Bài 5**: Chạy Redis (port 6379)
+6.  **Bài 6**: Chạy WordPress với MySQL
+7.  **Bài 7**: Chạy MongoDB với Mongo Express
+8.  **Bài 8**: Kết nối Node.js với MySQL
+9.  **Bài 9**: Chạy ứng dụng Python Flask
+10. **Bài 10**: Lưu trữ dữ liệu với Docker Volumes (MySQL)
+11. **Bài 11**: Chạy Postgres với Adminer (port 8083)
+12. **Bài 12**: Giám sát (Prometheus, Grafana, Node Exporter)
+13. **Bài 13**: Chạy React với Nginx
+14. **Bài 14**: Cấu hình mạng riêng giữa các container
+15. **Bài 15**: Giới hạn tài nguyên CPU/RAM cho Redis
 
 ## Phần 3: Docker Compose file (Nâng cao)
-*Đang cập nhật...*
+
+Danh sách 10 bài tập nâng cao đã hoàn thành:
+1.  **Bài 1**: Triển khai WordPress + MySQL (Custom network, volumes)
+2.  **Bài 2**: Ứng dụng Node.js + MongoDB (Healthcheck, volume)
+3.  **Bài 3**: Load Balancing với Nginx + Flask (2 instances)
+4.  **Bài 4**: Prometheus + Grafana Monitoring (Persistent data)
+5.  **Bài 5**: Multi-tier Voting App (Python, Node, Redis, Java, Postgres)
+6.  **Bài 6**: CI/CD Pipeline (Cấu hình Dev và Prod)
+7.  **Bài 7**: ELK Stack (Elasticsearch + Kibana)
+8.  **Bài 8**: Django + Celery + Redis
+9.  **Bài 9**: Nextcloud với MariaDB + Redis Caching
+10. **Bài 10**: Traefik as Reverse Proxy
+
