@@ -1,0 +1,17 @@
+services:
+  app:
+    build: .
+    volumes:
+      - .:/app
+    environment:
+      - NODE_ENV=development
+    ports:
+      - "3000:3000"
+
+  tests:
+    build: .
+    volumes:
+      - .:/app
+    entrypoint: ["npm", "test"]
+    depends_on:
+      - app

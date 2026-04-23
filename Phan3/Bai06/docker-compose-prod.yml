@@ -1,0 +1,13 @@
+services:
+  app:
+    build: 
+      context: .
+      target: production
+    image: myapp:prod
+
+  nginx:
+    image: nginx:stable-alpine
+    ports:
+      - "80:80"
+    depends_on:
+      - app
