@@ -1,0 +1,10 @@
+services:
+  redis:
+    image: redis:latest
+    deploy:
+      resources:
+        limits:
+          cpus: '0.50'
+          memory: 512M
+    ports:
+      - "6380:6379"
